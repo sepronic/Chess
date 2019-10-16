@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0844B4;
+}
+
+.chessboard {
+    position: relative;
+    background-image: url('http://3.bp.blogspot.com/-JVG3bNmA2AI/T0O2Bp0f9HI/AAAAAAAALc8/-9mfYn9RTwI/s1600/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0+%D0%B4%D0%BB%D1%8F+%D0%B8%D0%B3%D1%80%D1%8B+%D0%B2+%D1%88%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%8B+2.jpg');
+    background-size: cover;
+
+    height: 100vh;
+    width: 660px;
+    left: 45vh;
+    
+}
+
+img {
+    height: 70px;
+    width: 60px;
+}
+
+.piece-1b {
+    transform: translate(37px, 33px);
+    position: absolute;
+}
+
+.piece-2b {
+    transform: translate(107px, 33px);
+    position: absolute;
+}
+
+.piece-3b {
+    transform: translate(188px, 33px);
+    position: absolute;
+}
+
+.piece-4b {
+    transform: translate(262px, 33px);
+    position: absolute;
+}
+
+.piece-5b {
+    transform: translate(336px, 33px);
+    position: absolute;
+}
+
+.piece-6b {
+    transform: translate(410px, 33px);
+    position: absolute;
+}
+
+.piece-7b {
+    transform: translate(480px, 33px);
+    position: absolute;
+}
+
+.piece-8b {
+    transform: translate(557px, 33px);
+    position: absolute;
+}
+
+.piece-9b {
+    transform: translate(37px, 108px);
+    position: absolute;
+}
+
+.piece-10b {
+    transform: translate(113px, 108px);
+    position: absolute;
+}
+
+.piece-11b {
+    transform: translate(187px, 108px);
+    position: absolute;
+}
+
+.piece-12b {
+    transform: translate(261px, 108px);
+    position: absolute;
+}
+
+.piece-13b {
+    transform: translate(335px, 108px);
+    position: absolute;
+}
+
+.piece-14b {
+    transform: translate(410px, 108px);
+    position: absolute;
+}
+
+.piece-15b {
+    transform: translate(483px, 108px);
+    position: absolute;
+}
+
+.piece-16b {
+    transform: translate(558px, 108px);
+    position: absolute;
+}
+
+.piece-1w {
+    transform: translate(37px, 478px);
+    position: absolute;
+}
+
+.piece-2w {
+    transform: translate(113px, 478px);
+    position: absolute;
+}
+
+.piece-3w {
+    transform: translate(187px, 478px);
+    position: absolute;
+}
+
+.piece-4w {
+    transform: translate(261px, 478px);
+    position: absolute;
+}
+
+.piece-5w {
+    transform: translate(335px, 478px);
+    position: absolute;
+}
+
+.piece-6w {
+    transform: translate(410px, 478px);
+    position: absolute;
+}
+
+.piece-7w {
+    transform: translate(483px, 478px);
+    position: absolute;
+}
+
+.piece-8w {
+    transform: translate(558px, 478px);
+    position: absolute;
+}
+
+.piece-9w {
+    transform: translate(37px, 553px);
+    position: absolute;
+}
+
+.piece-10w {
+    transform: translate(110px, 553px);
+    position: absolute;
+}
+
+.piece-11w {
+    transform: translate(188px, 553px);
+    position: absolute;
+}
+
+.piece-12w {
+    transform: translate(262px, 553px);
+    position: absolute;
+}
+
+.piece-13w {
+    transform: translate(336px, 553px);
+    position: absolute;
+}
+
+.piece-14w {
+    transform: translate(410px, 553px);
+    position: absolute;
+}
+
+.piece-15w {
+    transform: translate(480px, 553px);
+    position: absolute;
+}
+
+.piece-16w {
+    transform: translate(557px, 553px);
+    position: absolute;
+}
