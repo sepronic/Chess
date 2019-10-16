@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100%;
+    min-width: 200px;
+    background-image: url('https://bipbap.ru/wp-content/uploads/2017/04/maxresdefault-2-6.jpg');
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.row {
+    position: relative;
+    margin-left: calc(100% / 11);
+    margin-right: 10px;
+}
+
+.white, .black {
+    border: 1px solid black;
+    width: calc(100% / 9);
+    height: 75px;
+    float: left;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.black {
+    background-color: #1A1943;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%; 
+    height: 60px;
+}
+
